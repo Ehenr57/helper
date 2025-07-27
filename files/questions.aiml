@@ -7,7 +7,7 @@
 
 <!-- questions -->
 <category>
-    <pattern>WELCOME</pattern>
+    <pattern>QUESTIONS</pattern>
     <template>
         Perfect! Lets start with a few questions to get the process started. 
         Please selected the statement that best fits you.
@@ -123,7 +123,7 @@
          work towards a more specialized field! Would you like to go through the questions again?
         <button>
             <text>Yes!</text>
-            <postback>QUESTION</postback>
+            <postback>QUESTIONS</postback>
         </button>
         <button>
             <text>No thank you.</text>
@@ -138,7 +138,7 @@
         You might be interested in a position as a Data Base Administrator. Would you like to go through the questions again?
         <button>
             <text>Yes!</text>
-            <postback>QUESTION</postback>
+            <postback>QUESTIONS</postback>
         </button>
         <button>
             <text>No thank you.</text>
@@ -153,7 +153,7 @@
         You might be interested in a position as a Data Scientist. Would you like to go through the questions again?
         <button>
             <text>Yes!</text>
-            <postback>QUESTION</postback>
+            <postback>QUESTIONS</postback>
         </button>
         <button>
             <text>No thank you.</text>
@@ -168,7 +168,7 @@
         You might be interested in a position as a Front End developer. Would you like to go through the questions again?
         <button>
             <text>Yes!</text>
-            <postback>QUESTION</postback>
+            <postback>QUESTIONS</postback>
         </button>
         <button>
             <text>No thank you.</text>
@@ -183,7 +183,7 @@
         You might be interested in a position as a Back End Developer. Would you like to go through the questions again?
         <button>
             <text>Yes!</text>
-            <postback>QUESTION</postback>
+            <postback>QUESTIONS</postback>
         </button>
         <button>
             <text>No thank you.</text>
@@ -198,7 +198,7 @@
         You might be interested in a position as an IT Project Manager. Would you like to go through the questions again?
         <button>
             <text>Yes!</text>
-            <postback>QUESTION</postback>
+            <postback>QUESTIONS</postback>
         </button>
         <button>
             <text>No thank you.</text>
@@ -213,7 +213,7 @@
         You might be interested in a position as a Computer And Science Systems Manager. Would you like to go through the questions again?
         <button>
             <text>Yes!</text>
-            <postback>QUESTION</postback>
+            <postback>QUESTIONS</postback>
         </button>
         <button>
             <text>No thank you.</text>
@@ -228,7 +228,7 @@
         You might be interested in a position as a Web Developer. Would you like to go through the questions again?
         <button>
             <text>Yes!</text>
-            <postback>QUESTION</postback>
+            <postback>QUESTIONS</postback>
         </button>
         <button>
             <text>No thank you.</text>
@@ -243,7 +243,7 @@
         You might be interested in a position as a Video Game Developer. Would you like to go through the questions again?
         <button>
             <text>Yes!</text>
-            <postback>QUESTION</postback>
+            <postback>QUESTIONS</postback>
         </button>
         <button>
             <text>No thank you.</text>
