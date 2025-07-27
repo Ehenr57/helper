@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  <category>
+      <Pattern>WELCOME</Pattern>
+      <template>
+          Welcome! I am Helper, I will be assisting you in a potential career choice!
+          Would you like to start the service?
+          <button>
+              <text>Yes!</text>
+              <postback>QUESTIONS</postback>
+          </button>
+          <button>
+              <text>Not today.</text>
+              <postback>LEAVE</postback>
+          </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>LEAVE</pattern>
+      <template>
+          Alright, please comeback when you are ready!
+      </template>
+  </category>
+</aiml>
+

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- Edison L Henry II
+        C951 Task 1
+        WGU# 010778389
+-->
+
+<!-- questions -->
+<category>
+    <pattern>WELCOME</pattern>
+    <template>
+        Perfect! Lets start with a few questions to get the process started. 
+        Please selected the statement that best fits you.
+        <button>
+            <text>I prefer to work behind the scenes.</text>
+            <postback>BEHIND</postback>
+        </button> 
+        <button>
+            <text>I prefer to work in the front of projects.</text>
+            <postback>FRONT</postback>
+        </button>
+        <button>
+            <text>I have no experience in the IT field at all.</text>
+            <postback>NEW</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>BEHIND</pattern>
+    <template>
+        Pefect, do you prefer to work with data or would like to work on development?
+        <button>
+            <text>I perfer Data</text>
+            <postback>DATA</postback>
+        </button>
+        <button>
+            <text>I prefer development</text>
+            <postback>DEVELOP</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>FRONT</pattern>
+    <template>
+        Perfect, would you prefer a leadership role or be part of a team?
+        <button>
+            <text>Leadership</text>
+            <postback>LEAD</postback>
+        </button>
+        <button>
+            <text>On a Team</text>
+            <postback>TEAM</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Data</pattern>
+    <template>
+        Perfect, would you prefer working on the structure of the data or helping to generate?
+        <button>
+            <text>The Structure</text>
+            <postback>STRUCTURE</postback>
+        </button>
+        <button>
+            <text>Helping generate</text>
+            <postback>GENERATE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>DEVELOP</pattern>
+    <template>
+        Perfect, would you prefer to work on the front end or back end of an application?
+        <button>
+            <text>Front End</text>
+            <postback>FRONT</postback>
+        </button>
+        <button>
+            <text>Back End</text>
+            <postback>Back</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>LEAD</pattern>
+    <template>
+        Perfect, would you prefer to lead a single smaller team or lead multiple teams through projects?
+        <button>
+            <text>Single Team</text>
+            <postback>Single</postback>
+        </button>
+        <button>
+            <text>Multiple Teams</text>
+            <postback>MULTIPLE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>TEAM</pattern>
+    <template>
+        Perfect, would you prefer to work on a web facing application or develop games?
+        <button>
+            <text>Web facing application</text>
+            <postback>APPS</postback>
+        </button>
+        <button>
+            <text>Develop games</text>
+            <postback>GAMES</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>NEW</pattern>
+    <template>
+         Welcome to the field of IT! Starting as a support desk technician will help build basic skills as you can then
+         work towards a more specialized field! Would you like to go through the questions again?
+        <button>
+            <text>Yes!</text>
+            <postback>QUESTION</postback>
+        </button>
+        <button>
+            <text>No thank you.</text>
+            <postback>LEAVE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>STRUCTURE</pattern>
+    <template>
+        You might be interested in a position as a Data Base Administrator. Would you like to go through the questions again?
+        <button>
+            <text>Yes!</text>
+            <postback>QUESTION</postback>
+        </button>
+        <button>
+            <text>No thank you.</text>
+            <postback>LEAVE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>GENERATE</pattern>
+    <template>
+        You might be interested in a position as a Data Scientist. Would you like to go through the questions again?
+        <button>
+            <text>Yes!</text>
+            <postback>QUESTION</postback>
+        </button>
+        <button>
+            <text>No thank you.</text>
+            <postback>LEAVE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>FRONT</pattern>
+    <template>
+        You might be interested in a position as a Front End developer. Would you like to go through the questions again?
+        <button>
+            <text>Yes!</text>
+            <postback>QUESTION</postback>
+        </button>
+        <button>
+            <text>No thank you.</text>
+            <postback>LEAVE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>BACK</pattern>
+    <template>
+        You might be interested in a position as a Back End Developer. Would you like to go through the questions again?
+        <button>
+            <text>Yes!</text>
+            <postback>QUESTION</postback>
+        </button>
+        <button>
+            <text>No thank you.</text>
+            <postback>LEAVE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>SINGLE</pattern>
+    <template>
+        You might be interested in a position as an IT Project Manager. Would you like to go through the questions again?
+        <button>
+            <text>Yes!</text>
+            <postback>QUESTION</postback>
+        </button>
+        <button>
+            <text>No thank you.</text>
+            <postback>LEAVE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Multiple</pattern>
+    <template>
+        You might be interested in a position as a Computer And Science Systems Manager. Would you like to go through the questions again?
+        <button>
+            <text>Yes!</text>
+            <postback>QUESTION</postback>
+        </button>
+        <button>
+            <text>No thank you.</text>
+            <postback>LEAVE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>APPS</pattern>
+    <template>
+        You might be interested in a position as a Web Developer. Would you like to go through the questions again?
+        <button>
+            <text>Yes!</text>
+            <postback>QUESTION</postback>
+        </button>
+        <button>
+            <text>No thank you.</text>
+            <postback>LEAVE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>GAMES</pattern>
+    <template>
+        You might be interested in a position as a Video Game Developer. Would you like to go through the questions again?
+        <button>
+            <text>Yes!</text>
+            <postback>QUESTION</postback>
+        </button>
+        <button>
+            <text>No thank you.</text>
+            <postback>LEAVE</postback>
+        </button>
+    </template>
+</category>
+
+</aiml>
